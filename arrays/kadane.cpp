@@ -12,7 +12,7 @@ int maxsubarraysum(const vector<int>&nums){
       new_sum = 0;
     }
   }
-  return new_sum;
+  return max_sum;
 }
 int main(){
   vector<int> nums = {1,2,3,4,-6,5};
